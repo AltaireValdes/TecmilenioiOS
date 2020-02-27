@@ -1,6 +1,11 @@
+
 import UIKit
 
+
 var str = "Hello, This is Actividad 4"
+print(str)
+
+
 
 //Enumeración de Datos
 var datos = [3,6,9,2,4,1]
@@ -8,6 +13,8 @@ var datos = [3,6,9,2,4,1]
 let filtered = datos.filter { (element) -> Bool in
     return element != 6 && element != 9
 }
+
+
 
 
 //Suma
@@ -18,12 +25,16 @@ func sum(a: Int, b: Int) -> Int {
 sum(a:6, b:3)
 
 
+
+
 //Potencia
 func pow(a: Int) -> Int {
     return a * a
 }
 
 pow(a:8)
+
+
 
 
 //Enumeración

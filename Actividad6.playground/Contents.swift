@@ -1,6 +1,8 @@
 import UIKit
 
 var str = "Hello, this is Actividad 6"
+print(str)
+
 
 //prefix
 prefix operator +++
@@ -28,6 +30,7 @@ func suma2(dato:Int) -> Int
 
 5|>suma2
 3|>suma2
+
 
 
 //subscript
@@ -58,6 +61,7 @@ class Cantidad
 let v1 = Cantidad(v: cantidades)
 
 print (cantidades)
+
 
 
 //control de errores
