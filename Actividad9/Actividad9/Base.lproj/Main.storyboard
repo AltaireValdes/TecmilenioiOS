@@ -12,7 +12,7 @@
             <objects>
                 <viewController id="qhs-XN-Oyn" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="XJr-ft-GNf">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Ventana 2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V19-lg-VRW">
@@ -85,6 +85,6 @@
         <image name="caja" width="428" height="418"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="bdw-Uo-NTS"/>
+        <segue reference="qMN-zk-BcP"/>
     </inferredMetricsTieBreakers>
 </document>
