@@ -13,7 +13,7 @@
 		8E4929DF2424869700CD3BAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E4929DD2424869700CD3BAE /* Main.storyboard */; };
 		8E4929E12424869C00CD3BAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E4929E02424869C00CD3BAE /* Assets.xcassets */; };
 		8E4929E42424869C00CD3BAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E4929E22424869C00CD3BAE /* LaunchScreen.storyboard */; };
-		8E4929EC2424895A00CD3BAE /* ちはや純.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8E4929EB2424895900CD3BAE /* ちはや純.ttf */; };
+		8E55EB2A242B016000A4F2CE /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E55EB29242B016000A4F2CE /* String.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +25,8 @@
 		8E4929E02424869C00CD3BAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8E4929E32424869C00CD3BAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8E4929E52424869C00CD3BAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8E4929EB2424895900CD3BAE /* ちはや純.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "ちはや純.ttf"; path = "../../../../Downloads/chi_jyun/ちはや純.ttf"; sourceTree = "<group>"; };
+		8E55EB29242B016000A4F2CE /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		8E55EB2B242B01D600A4F2CE /* ちはや純.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ちはや純.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,8 +65,9 @@
 				8E4929DD2424869700CD3BAE /* Main.storyboard */,
 				8E4929E02424869C00CD3BAE /* Assets.xcassets */,
 				8E4929E22424869C00CD3BAE /* LaunchScreen.storyboard */,
+				8E55EB2B242B01D600A4F2CE /* ちはや純.ttf */,
 				8E4929E52424869C00CD3BAE /* Info.plist */,
-				8E4929EB2424895900CD3BAE /* ちはや純.ttf */,
+				8E55EB29242B016000A4F2CE /* String.swift */,
 			);
 			path = plus1plus1;
 			sourceTree = "<group>";
@@ -128,7 +130,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8E4929EC2424895A00CD3BAE /* ちはや純.ttf in Resources */,
 				8E4929E42424869C00CD3BAE /* LaunchScreen.storyboard in Resources */,
 				8E4929E12424869C00CD3BAE /* Assets.xcassets in Resources */,
 				8E4929DF2424869700CD3BAE /* Main.storyboard in Resources */,
@@ -144,6 +145,7 @@
 			files = (
 				8E4929DC2424869700CD3BAE /* GameViewController.swift in Sources */,
 				8E4929D82424869700CD3BAE /* AppDelegate.swift in Sources */,
+				8E55EB2A242B016000A4F2CE /* String.swift in Sources */,
 				8E4929DA2424869700CD3BAE /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
