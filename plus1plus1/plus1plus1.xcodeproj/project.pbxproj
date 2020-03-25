@@ -14,6 +14,7 @@
 		8E4929E12424869C00CD3BAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E4929E02424869C00CD3BAE /* Assets.xcassets */; };
 		8E4929E42424869C00CD3BAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E4929E22424869C00CD3BAE /* LaunchScreen.storyboard */; };
 		8E55EB2A242B016000A4F2CE /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E55EB29242B016000A4F2CE /* String.swift */; };
+		8E608C61242B062E00C4FDF7 /* chihaya.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8E608C60242B062E00C4FDF7 /* chihaya.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,7 +27,7 @@
 		8E4929E32424869C00CD3BAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8E4929E52424869C00CD3BAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8E55EB29242B016000A4F2CE /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
-		8E55EB2B242B01D600A4F2CE /* ちはや純.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ちはや純.ttf"; sourceTree = "<group>"; };
+		8E608C60242B062E00C4FDF7 /* chihaya.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = chihaya.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +66,7 @@
 				8E4929DD2424869700CD3BAE /* Main.storyboard */,
 				8E4929E02424869C00CD3BAE /* Assets.xcassets */,
 				8E4929E22424869C00CD3BAE /* LaunchScreen.storyboard */,
-				8E55EB2B242B01D600A4F2CE /* ちはや純.ttf */,
+				8E608C60242B062E00C4FDF7 /* chihaya.ttf */,
 				8E4929E52424869C00CD3BAE /* Info.plist */,
 				8E55EB29242B016000A4F2CE /* String.swift */,
 			);
@@ -132,6 +133,7 @@
 			files = (
 				8E4929E42424869C00CD3BAE /* LaunchScreen.storyboard in Resources */,
 				8E4929E12424869C00CD3BAE /* Assets.xcassets in Resources */,
+				8E608C61242B062E00C4FDF7 /* chihaya.ttf in Resources */,
 				8E4929DF2424869700CD3BAE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
