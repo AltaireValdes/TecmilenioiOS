@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
-        <array key="ちはや純.ttf">
+        <array key="chihaya.ttf">
             <string>Chihaya-Jyun</string>
         </array>
     </customFonts>
@@ -77,7 +77,7 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                     </view>
                     <connections>
-                        <outlet property="inputLabel" destination="IjZ-Wn-BYK" id="9NS-dR-pYt"/>
+                        <outlet property="inputField" destination="IjZ-Wn-BYK" id="qZK-66-Nod"/>
                         <outlet property="numberLabel" destination="5mG-Jy-ILV" id="AR9-gb-jPv"/>
                         <outlet property="scoreLabel" destination="9Ze-zS-pes" id="rzg-Q7-MbS"/>
                         <outlet property="timeLabel" destination="amG-tu-EKk" id="WqR-QM-6Ua"/>
