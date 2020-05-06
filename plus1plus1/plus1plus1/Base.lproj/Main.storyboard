@@ -16,71 +16,113 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="GameViewController" customModule="plus1plus1" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="CPx-Mp-0uz"/>
-                        <viewControllerLayoutGuide type="bottom" id="aCa-hL-dIU"/>
+                        <viewControllerLayoutGuide type="top" id="vZf-bT-OaL"/>
+                        <viewControllerLayoutGuide type="bottom" id="05a-ym-oBo"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="VKQ-Zn-hr0">
-                                <rect key="frame" x="0.0" y="0.0" width="417" height="896"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="62z-fb-nA7">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="score" translatesAutoresizingMaskIntoConstraints="NO" id="kSC-M0-VQJ">
-                                <rect key="frame" x="21" y="39" width="121" height="73"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="score" translatesAutoresizingMaskIntoConstraints="NO" id="ayp-16-UU9">
+                                <rect key="frame" x="20" y="50" width="150" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="HiW-fr-upJ"/>
+                                    <constraint firstAttribute="width" constant="150" id="RPU-At-WRC"/>
+                                </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="1234" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Ze-zS-pes">
-                                <rect key="frame" x="46" y="58" width="71" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Chihaya-Jyun" family="Chihaya Jyun" pointSize="35"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1234" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rjq-Dd-E0s">
+                                <rect key="frame" x="55" y="55" width="80" height="40"/>
+                                <fontDescription key="fontDescription" name="Chihaya-Jyun" family="Chihaya Jyun" pointSize="40"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="time" translatesAutoresizingMaskIntoConstraints="NO" id="Sjt-i0-ZrR">
-                                <rect key="frame" x="265" y="50" width="130" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="time" translatesAutoresizingMaskIntoConstraints="NO" id="KGE-Te-MSc">
+                                <rect key="frame" x="244" y="50" width="150" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="45g-dW-Kq5"/>
+                                    <constraint firstAttribute="height" constant="50" id="KzE-KC-tx6"/>
+                                </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="00:00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="amG-tu-EKk">
-                                <rect key="frame" x="270" y="57" width="88" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Chihaya-Jyun" family="Chihaya Jyun" pointSize="35"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00:00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6YD-cz-fnZ">
+                                <rect key="frame" x="249" y="55" width="100" height="40"/>
+                                <fontDescription key="fontDescription" name="Chihaya-Jyun" family="Chihaya Jyun" pointSize="40"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="number" translatesAutoresizingMaskIntoConstraints="NO" id="Xdc-oW-eyZ">
-                                <rect key="frame" x="57" y="208" width="300" height="130"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="number" translatesAutoresizingMaskIntoConstraints="NO" id="Rrk-Ze-S0H">
+                                <rect key="frame" x="57" y="165" width="300" height="130"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="EZb-4m-iLw"/>
+                                    <constraint firstAttribute="height" constant="130" id="wpy-ng-5im"/>
+                                </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="1234" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5mG-Jy-ILV">
-                                <rect key="frame" x="127" y="233" width="160" height="80"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Chihaya-Jyun" family="Chihaya Jyun" pointSize="80"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="5930" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Lt-72-0ba">
+                                <rect key="frame" x="117" y="185" width="180" height="90"/>
+                                <fontDescription key="fontDescription" name="Chihaya-Jyun" family="Chihaya Jyun" pointSize="90"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="center" minimumFontSize="25" background="input" translatesAutoresizingMaskIntoConstraints="NO" id="IjZ-Wn-BYK" customClass="input">
-                                <rect key="frame" x="79" y="393" width="256" height="110"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Chihaya-Jyun" family="Chihaya Jyun" pointSize="65"/>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="center" minimumFontSize="17" background="input" translatesAutoresizingMaskIntoConstraints="NO" id="2LU-YZ-I4f">
+                                <rect key="frame" x="79" y="346" width="256" height="91.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="256" id="3ly-th-3Mo"/>
+                                    <constraint firstAttribute="height" constant="91.5" id="6rb-hk-izv"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Chihaya-Jyun" family="Chihaya Jyun" pointSize="90"/>
                                 <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                <connections>
+                                    <action selector="inputFieldDidChange" destination="BYZ-38-t0r" eventType="editingChanged" id="NL0-xs-RMH"/>
+                                </connections>
                             </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Agrega 1 número a cada dígito, para que 3582, sea 4693" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Glz-bw-gHk">
-                                <rect key="frame" x="20" y="737" width="375" height="100"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Chihaya-Jyun" family="Chihaya Jyun" pointSize="31"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Agrega 1 a cada número para que pase de 3569 a 4670" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kzs-RU-WhW">
+                                <rect key="frame" x="20" y="612" width="375" height="203"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="203" id="N14-3I-5pk"/>
+                                    <constraint firstAttribute="width" constant="375" id="aNE-r6-lvC"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Chihaya-Jyun" family="Chihaya Jyun" pointSize="35"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="62z-fb-nA7" secondAttribute="bottom" id="11H-LS-ldy"/>
+                            <constraint firstItem="ayp-16-UU9" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="2Aa-eW-NUD"/>
+                            <constraint firstItem="Rjq-Dd-E0s" firstAttribute="centerX" secondItem="ayp-16-UU9" secondAttribute="centerX" id="8a4-UI-fOk"/>
+                            <constraint firstItem="2LU-YZ-I4f" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="59" id="8nW-No-Ywf"/>
+                            <constraint firstAttribute="trailing" secondItem="kzs-RU-WhW" secondAttribute="trailing" constant="19" id="8qW-mI-TEp"/>
+                            <constraint firstItem="kzs-RU-WhW" firstAttribute="top" secondItem="2LU-YZ-I4f" secondAttribute="bottom" constant="174.5" id="CHL-7I-P3n"/>
+                            <constraint firstItem="6YD-cz-fnZ" firstAttribute="centerY" secondItem="KGE-Te-MSc" secondAttribute="centerY" id="DRW-P6-3cW"/>
+                            <constraint firstItem="kzs-RU-WhW" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="FON-2J-nVV"/>
+                            <constraint firstAttribute="trailing" secondItem="62z-fb-nA7" secondAttribute="trailing" id="GFL-kZ-xJF"/>
+                            <constraint firstItem="0Lt-72-0ba" firstAttribute="centerX" secondItem="Rrk-Ze-S0H" secondAttribute="centerX" id="GzB-0A-d71"/>
+                            <constraint firstItem="KGE-Te-MSc" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="HDj-6C-k66"/>
+                            <constraint firstItem="0Lt-72-0ba" firstAttribute="centerY" secondItem="Rrk-Ze-S0H" secondAttribute="centerY" id="Idr-eP-4Gk"/>
+                            <constraint firstItem="6YD-cz-fnZ" firstAttribute="centerX" secondItem="KGE-Te-MSc" secondAttribute="centerX" constant="-20" id="R7R-JB-Jfw"/>
+                            <constraint firstItem="62z-fb-nA7" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="Vu2-7P-vq8"/>
+                            <constraint firstItem="ayp-16-UU9" firstAttribute="top" secondItem="vZf-bT-OaL" secondAttribute="bottom" constant="6" id="Xa9-u2-Maa"/>
+                            <constraint firstItem="2LU-YZ-I4f" firstAttribute="top" secondItem="Rrk-Ze-S0H" secondAttribute="bottom" constant="51" id="c3r-yN-ZDb"/>
+                            <constraint firstItem="Rrk-Ze-S0H" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="37" id="cee-RJ-Ruo"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="2LU-YZ-I4f" secondAttribute="trailing" constant="59" id="e8u-Sr-2kw"/>
+                            <constraint firstItem="05a-ym-oBo" firstAttribute="top" secondItem="kzs-RU-WhW" secondAttribute="bottom" constant="47" id="gHH-yq-yAC"/>
+                            <constraint firstItem="KGE-Te-MSc" firstAttribute="top" secondItem="vZf-bT-OaL" secondAttribute="bottom" constant="6" id="giw-Dn-ta8"/>
+                            <constraint firstItem="62z-fb-nA7" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="owq-gc-DPR"/>
+                            <constraint firstItem="kzs-RU-WhW" firstAttribute="top" secondItem="2LU-YZ-I4f" secondAttribute="bottom" constant="174.5" id="qh3-vp-QP8"/>
+                            <constraint firstItem="Rrk-Ze-S0H" firstAttribute="top" secondItem="ayp-16-UU9" secondAttribute="bottom" constant="65" id="tys-Jt-jfv"/>
+                            <constraint firstItem="2LU-YZ-I4f" firstAttribute="top" secondItem="Rrk-Ze-S0H" secondAttribute="bottom" constant="51" id="yAx-ar-I7L"/>
+                            <constraint firstItem="Rjq-Dd-E0s" firstAttribute="centerY" secondItem="ayp-16-UU9" secondAttribute="centerY" id="yHU-YZ-cbn"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Rrk-Ze-S0H" secondAttribute="trailing" constant="37" id="zS6-KD-0WP"/>
+                        </constraints>
                     </view>
                     <connections>
-                        <outlet property="inputField" destination="IjZ-Wn-BYK" id="qZK-66-Nod"/>
-                        <outlet property="numberLabel" destination="5mG-Jy-ILV" id="AR9-gb-jPv"/>
-                        <outlet property="scoreLabel" destination="9Ze-zS-pes" id="rzg-Q7-MbS"/>
-                        <outlet property="timeLabel" destination="amG-tu-EKk" id="WqR-QM-6Ua"/>
+                        <outlet property="inputField" destination="2LU-YZ-I4f" id="12R-HG-aKn"/>
+                        <outlet property="numberLabel" destination="0Lt-72-0ba" id="v4a-Mc-3uG"/>
+                        <outlet property="scoreLabel" destination="Rjq-Dd-E0s" id="eWY-pu-IHc"/>
+                        <outlet property="timeLabel" destination="6YD-cz-fnZ" id="HSk-oI-gDj"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
